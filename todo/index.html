@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="photobox">
+            <div id="photo">drop image</div>
+            <label for="mfile" id="mfilelabel">upload</label>
+            <input type="file" id="mfile">
+        </div>
+        <div id="todobox">
+            <div>
+                <form id="form">
+                    <input type="text" id="input">
+                </form>
+            </div>
+            <div class="todolist">
+                <ul id="ul">
+                </ul>
+            </div>
+            <div id="trashcan" class="trashcan">
+                <i class="far fa-trash-alt"></i>
+            </div>
+        </div>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/uploadforpc.js"></script>
+    <script src="js/uploadformobile.js"></script>
+    
+</body>
+</html>
